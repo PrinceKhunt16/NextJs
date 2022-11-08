@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "TV",
+            "price": 700
+        },
+        {
+            "id": 2,
+            "title": "Book",
+            "price": 1050
+        },
+        {
+            "id": 3,
+            "title": "Phone",
+            "price": 2600
+        }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "title": "Who plays well in today's match ?",
+            "description": "Description of Who plays well in today's match ?",
+            "category": "sports"
+        },
+        {
+            "id": 2,
+            "title": "Narendra modi will come surat.",
+            "description": "Description of Narendra modi will come surat.",
+            "category": "politics"
+        },
+        {
+            "id": 3,
+            "title": "Indian coach change.",
+            "description": "Description of Indian coach change.",
+            "category": "sports"
+        }
+    ]
+}

@@ -1,4 +1,12 @@
+import { useRouter } from "next/router"
+
 export default function Post({ post }) {
+    const router = useRouter()
+
+    if (router.isFallback) {
+      return <div>Loading</div>
+    }
+
     return (
         <div>
             <p>{post.id}</p>
@@ -19,9 +27,15 @@ export async function getStaticPaths() {
         }
     })
 
+    /*
+    
+    https://nextjs.org/docs/api-reference/data-fetching/get-static-paths#fallback-false
+    
+    */
+
     return {
         paths,
-        fallback: false
+        fallback: true
     }
 }
 
