@@ -7,3 +7,13 @@
     margin: auto;
     padding: 0;
 }
+
+button {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input {
+    font-size: 14px;
+    font-weight: 500;
+}
